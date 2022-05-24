@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+    font-family: 'poppins', sans-serif;
+}
+
+/*Título principal*/
+
+.menu{
+    background-color: #000;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+/*Imágen iguana cabecera*/
+
+.imagen_principal{
+    background-image: url('../images/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 750px;
+}
+
+
+/*Texto explicativo*/
+
+.descripcion-padre{
+    background-color: #000;
+    color: #ffffff;
+    display: flex;
+    align-items: start;
+}
+
+.descripcion_texto{
+    display: inline-block;
+    width: 45%;
+    padding: 90px 10px 10px 80px;
+    font-size: 1em;
+}
+
+.descripcion_imagen{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+/*Características*/
+
+.caracteristicas-padre{
+    background-color: #545454;
+    color: #ffffff;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 40px;
+    font-size: 1.3em;
+}
+
+.caracteristicas-imagenes{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.eye, .hand-peace, .paint-brush{
+    display: inline-block;
+    width: 33%;
+}
+
+.eye{
+    padding-left: 10%;
+}
+
+.paint-brush{
+    padding-right: 10%;
+}
+
+
+/*Foto de iguanas*/
+
+.fotos-padre{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.iguana-dos-padre, .iguana-tres-padre, .iguana-cuatro-padre{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 350px;
+}
+
+.iguana-dos{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: inline-block;
+}
+
+.iguana-tres{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: inline-block;
+}
+
+.iguana-cuatro{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: inline-block;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #545454;
+    color: #ffffff;
+    text-align: center;
+    line-height: 70px;
+    font-size: 1em;
+}
